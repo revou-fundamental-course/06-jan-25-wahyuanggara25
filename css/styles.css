@@ -27,10 +27,12 @@ nav {
   border-radius: 0 12px 12px 0;
 }
 nav > a {
-  border: 1px solid black;
+  border: 2px solid rgb(10, 142, 219);
   padding: 8px;
-  color: black;
+  color: rgb(22, 175, 172);
   text-decoration: none;
+
+  text-decoration-color: aqua;
 }
 
 .banner-image {
@@ -52,7 +54,11 @@ nav > a {
 }
 
 .content {
-  height: 500px;
+  height: 300px;
+}
+
+.kalimat-header {
+  text-align: center;
 }
 
 /* css yang dijalankan layar kurang dari 480px */
